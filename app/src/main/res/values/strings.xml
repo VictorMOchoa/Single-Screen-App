@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Single ScreenApp</string>
+    <string name="app_name">Contenders Boxing Gym</string>
+    <string name="address">25122 Woodlawn Boulevard \nWilmington, CA \n90744</string>
+    <string name="contact_info">(310) 961-8834</string>
+    <string name="description">Local gym which has been around for three decades at this location. All coaches had reputable amateur and pro boxing careers.</string>
+    <string name="hours_of_operation">Open Mon-Sa 6:00AM - 9PM</string>
 </resources>
