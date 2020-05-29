@@ -8,12 +8,12 @@
     tools:context="com.eatanapple.singlescreenapp.MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/business_iv"
         android:layout_width="0dp"
         android:layout_height="225dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/boxing_gym"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,61 +24,60 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/description_tv"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:layout_marginTop="8dp"
         android:text="@string/description"
         android:textAlignment="center"
-        android:textColor="@android:color/darker_gray"
+        android:textColor="@android:color/white"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/address_tv"
         app:layout_constraintVertical_bias="0.268" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/hours_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="32dp"
         android:text="@string/hours_of_operation"
-        android:textColor="@android:color/darker_gray"
-        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
         app:layout_constraintHorizontal_bias="0.818"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/business_iv" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/contact_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/contact_info"
-        android:textColor="@android:color/darker_gray"
-        android:textSize="12sp"
-        app:layout_constraintHorizontal_bias="0.861"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        app:layout_constraintHorizontal_bias="0.854"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/hours_tv" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/address_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/address"
         android:textAlignment="textEnd"
-        android:textColor="@android:color/darker_gray"
-        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
         app:layout_constraintHorizontal_bias="0.818"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/contact_tv" />
 
 </android.support.constraint.ConstraintLayout>
